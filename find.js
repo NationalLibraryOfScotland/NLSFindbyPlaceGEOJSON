@@ -195,7 +195,7 @@ var overlaySelected;
 		var one_inch_popular_json = new ol.layer.Vector({
 		  title: "Scotland, OS One inch Popular, 1921-1930",
 		  source: new ol.source.Vector({
-		    url: 'http://geo.nls.uk/maps/dev/github/json/one-inch-popular.js',
+		    url: 'https://github.com/NationalLibraryOfScotland/NLSFindbyPlaceGEOJSON/one-inch-popular.js',
     		    format: new ol.format.GeoJSON(),
 
 		  }),
@@ -218,7 +218,7 @@ var overlaySelected;
 		var one_inch_seventh_json = new ol.layer.Vector({
 		  title: "Great Britain, OS One inch, 1952-61",
 		  source: new ol.source.Vector({
-		    url: 'http://geo.nls.uk/maps/dev/github/json/one-inch-seventh.js',
+		    url: 'https://github.com/NationalLibraryOfScotland/NLSFindbyPlaceGEOJSON/one-inch-seventh.js',
     		    format: new ol.format.GeoJSON(),
 
 		  }),
