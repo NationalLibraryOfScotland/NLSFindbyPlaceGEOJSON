@@ -321,7 +321,6 @@ var overlaySelected;
 			                     selectedStyle
 			                ]);
                			selectedFeatures.push(feature);
-	  			return feature;
 										 
 				 },  {hitTolerance: 1});
 
